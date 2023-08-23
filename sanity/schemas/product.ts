@@ -10,13 +10,16 @@ export default {
         },
         {
             name: 'price',
-            type: 'integer',
+            type: 'string',
             title: 'price'
         },
         {
             name: 'slug',
             type: 'slug',
-            title: 'slug'
+            title: 'slug',
+            options:{
+                source:'name'
+            }
         },
         {
             name: 'image',
